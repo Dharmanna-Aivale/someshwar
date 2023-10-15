@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #logo{
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+ 
+  .navbar {
+    box-shadow: 3px 3px 22px 2px black;
+  }
+  .navbar img {
+    height: 70px;
+    width: auto;
+    box-shadow: 3px 3px 5px 3px black;
+  }
+  .navbar .navbar-nav .nav-link {
+    text-shadow: 1px 1px 2px black;
+    font-size: 20px;
+  }
+
+  /* main  */
+  main {
+    background-image: url('../images/image2.jpg');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover; /* This will make the image cover the entire element */
+    background-position: center; /* This will center the image within the element */
+  }
+  
+  .container h2{
+    color: white;
+    margin-top: 80px;
+    font-size:3rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-shadow: 4px 5px 2px black;
+
+
+  }
+
+  .container #login{
+transform: translateY(110px);
+margin-left: 220px;
+padding: 12 32px;
+  }
+  .container h2 p{
+    color: green;
+  }
+  .container img{
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 50%;
+    box-shadow: 10px 13px 12px 2px black;
+  }
+  #BuyNow{
+    transform: translateX(250px);
+    margin-top: 20px;
+
+   
+  }
+
+
+  /* footer started */
+
+  #footer {
+    background:red;
+    box-shadow: 3px 3px 22px 2px black;
+  }
+  #footer h5 {
+    padding-left: 10px;
+    border-left: 3px solid black;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+  }
+  #footer .list-unstyled p {
+    color: white;
+  }
+  #footer .list-unstyled ul li {
+    color: white;
+  }
+  #footer .formargin p {
+    color: white;
+  }
+  #footer a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #footer a:hover {
+    text-decoration: underline;
+    padding-left: 3px;
+    color: black;
+  }
+  
+
+  /* media queries { */
+
+
+    @media (max-width: 480px) {
+      .container img {
+        visibility: hidden;
+        display: none;
+      }
+      .container h2 {
+        
+        font-size: 30px;
+  
+    }
+    #BuyNow {
+      visibility: hidden;
+      display: none;
+  }
+  .container #login {
+margin-left: 10px;
+margin-bottom: 50px;
+}
+    }
+    
+  
